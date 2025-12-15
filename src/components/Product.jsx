@@ -1,5 +1,6 @@
 import React from 'react';
 import './Product.css';
+import product1 from '../assets/Product1.svg';
 
 const order = (productName, price) => {
     const message = `สวัสดีครับ/ค่ะ ผม/ฉันสนใจสั่งซื้อ ${productName} ราคา ${price} บาทครับ/ค่ะ`;
@@ -17,7 +18,7 @@ return(
         <div className="product-grid">
           <div className="product-card">
             <img
-              src="https://tr.rbxcdn.com/1cfa5d4f39ea32f69aed0b8b1be44668/768/432/Image/Webp"
+              src={product1}
               alt="Roblox Account"
             />
             <h3>รหัส ไก่ตัน Blox fruit</h3>
@@ -28,7 +29,7 @@ return(
 
           <div className="product-card">
             <img
-              src="https://tr.rbxcdn.com/2a7071f3af8b671c5f3cf1911091cf07/768/432/Image/Webp"
+              src={product1}
               alt="Roblox Premium"
             />
             <h3>รหัส Roblox Premium</h3>
@@ -39,7 +40,7 @@ return(
 
           <div className="product-card">
             <img
-              src="https://tr.rbxcdn.com/3f0b554b1f41f54c74fd4e64ee81a711/768/432/Image/Webp"
+              src={product1}
               alt="Random Roblox Account"
             />
             <h3>รหัสสุ่ม Roblox</h3>
