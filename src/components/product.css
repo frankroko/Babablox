@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+#body {
+    font-family: "Prompt", sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #ff4d4d;
+    color: white;
+    padding: 45px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+/* Products Section */
+.products-section {
+    padding: 30px;
+    text-align: center;
+}
+
+.products-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Product Grid */
+.product-grid {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 20px;
+}
+
+/* Card */
+.product-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.product-card:hover {
+    transform: scale(1.03);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin: 12px 0 5px;
+    font-size: 22px;
+}
+
+.product-card .desc {
+    font-size: 15px;
+    color: #777;
+}
+
+.price {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #e63946;
+    font-weight: bold;
+}
+
+/* Button */
+button {
+    background: #ff4d4d;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e62e2e;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
